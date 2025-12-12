@@ -33,21 +33,21 @@ const Layout = () => {
             <footer className="bg-gray-900 text-white py-8">
                 <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Markus Vogel</h3>
+                        <h3 className="text-xl font-bold mb-4 text-white">Markus Vogel</h3>
                         <p className="text-gray-400">Ihr vertrauensvoller Partner für steuerliche Angelegenheiten in Berlin.</p>
                     </div>
                     <div>
-                        <h3 className="text-md font-bold mb-4">Kontakt</h3>
-                        <p className="text-gray-400">Musterstraße 123</p>
-                        <p className="text-gray-400">10115 Berlin</p>
-                        <p className="text-gray-400 mt-2">Tel: +49 30 1234567</p>
-                        <p className="text-gray-400">Email: kontakt@vogel-steuer.de</p>
+                        <h3 className="text-md font-bold mb-4 text-white">Kontakt</h3>
+                        <p className="text-gray-400">Zeestower Weg 19</p>
+                        <p className="text-gray-400">13591 Berlin</p>
+                        <p className="text-gray-400 mt-2">+49 155-634 605 60</p>
+                        <p className="text-gray-400">E-mail: <a href="mailto:markus@mv-steuern.de" className="hover:text-white transition-colors">markus@mv-steuern.de</a></p>
                     </div>
                     <div>
-                        <h3 className="text-md font-bold mb-4">Rechtliches</h3>
+                        <h3 className="text-md font-bold mb-4 text-white">Rechtliches</h3>
                         <ul className="text-gray-400 space-y-2">
-                            <li><a href="#" className="hover:text-white">Impressum</a></li>
-                            <li><a href="#" className="hover:text-white">Datenschutz</a></li>
+                            <li><Link to="/impressum" className="hover:text-white">Impressum</Link></li>
+                            <li><Link to="/datenschutz" className="hover:text-white">Datenschutz</Link></li>
                         </ul>
                     </div>
                 </div>
