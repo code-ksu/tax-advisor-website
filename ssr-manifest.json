@@ -27,6 +27,8 @@
   "src/pages/Home.tsx": [],
   "src/pages/Firm.tsx": [],
   "src/pages/Services.tsx": [],
+  "src/pages/Impressum.tsx": [],
+  "src/pages/Datenschutz.tsx": [],
   "src/App.tsx": [],
   "src/index.css": [],
   "src/entry-client.tsx": [],
