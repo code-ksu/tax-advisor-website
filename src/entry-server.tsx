@@ -7,7 +7,7 @@ import './index.css'
 export function render(url: string) {
     return ReactDOMServer.renderToString(
         <React.StrictMode>
-            <StaticRouter location={url} basename={import.meta.env.BASE_URL}>
+            <StaticRouter location={url}>
                 <App />
             </StaticRouter>
         </React.StrictMode>

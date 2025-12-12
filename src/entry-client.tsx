@@ -7,7 +7,7 @@ import './index.css'
 ReactDOM.hydrateRoot(
     document.getElementById('root')!,
     <React.StrictMode>
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <BrowserRouter>
             <App />
         </BrowserRouter>
     </React.StrictMode>
